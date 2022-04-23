@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewpoint" content="width-device-width, initial-scale=1"/>
+  <meta charset="utf-8"/>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="registration.css">
+	<style>
+		.hr2 {
+			border-top: 1px solid gray;
+			width: 95%;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+	<form class="form" action="/action_page.php">
+		<div class="Header1">
+			<h1>Codetrain Registration Form</h1>
+			<p>
+				There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admission team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admission process.
+			</p>
+			<hr class="hr1" style="width: 100%;">
+			<div class="Email1">
+			<p>phareznyakeh@gmail.com <a href="#">Switch account</a></p>
+			<label><span style="color: red">*</span><strong>Required</strong></label>
+			</div>
+		</div>
+		<div class="Email2">
+			<br>
+			<label><strong>Email</strong><span style="color: red">*</span></label>
+			<br>
+			<br>
+			<input class="Email2-input" type="text" placeholder="Your Email Addresss">
+			<hr class="hr2">
+		</div>
+		<div class="FName">
+			<br>
+			<label><strong>Full Name</strong><span style="color: red">*</span></label>
+			<br>
+			<br>
+			<input class="fname-input" type="text" placeholder="Your answer">
+			<hr class="hr2">
+		</div>
+		<div class="FName2">
+			<br>
+			<label><strong>Phone Number</strong><span style="color: red">*</span></label>
+			<br>
+			<br>
+			<input class="fname-input" type="text" placeholder="Your answer">
+			<hr class="hr2">
+		</div>
+		<div class="Nok">
+			<br>
+			<h3>Phone number of next Of kin</h3>
+			<p>Phone Number of someone we can reach out to in case your phone is off or not reachable. Eg your Parent, guardian or sibling, or spouse.</p>
+			<br>
+			<input class="Nok-input" type="text" placeholder="Your answer">
+			<hr class="hr2">
+			<br>
+		</div>
+		<br>
+		<div class="Fees">
+			<br>
+			<p>Can you pay 60% or more of the full codetrain fees(GHS6000)</p>
+			<input type="radio" id="css" name="Fees" value="css">
+			<label for="No">No</label>
+			<br>
+			<br>
+			<input type="radio" id="css" name="Fees" value="css">
+			<label for="Yes">Yes</label>
+			
+		</div>
+		<div class="Payfees">
+			<br>
+			<p>Please Indicate who is going to pay your fees<span style="color: red;">*</span></p>
+			<input type="radio" id="css" name="Payfees" value="css">
+			<label for="Yourself">Yourself</label>
+			<br>
+			<br>
+			<input type="radio" id="css" name="Payfees" value="css">
+			<label for="Parent / Sponsor">Parent / Sponsor</label>
+			<br>
+			<br>
+			<input type="radio" id="css" name="Payfees" value="css">
+			<label for="Organization">Organization</label>
+		</div>
+		<div class="FName3">
+			<br>
+			<label><strong>Location</strong><span style="color: red">*</span></label>
+			<br>
+			<br>
+			<input class="fname-input" type="text" placeholder="Your answer">
+			<hr class="hr2">
+		</div>
+		<div class="FName4">
+			<br>
+			<label><strong>Current or previous school</strong><span style="color: red">*</span></label>
+			<br>
+			<br>
+			<input class="fname-input" type="text" placeholder="Your answer">
+			<hr class="hr2">
+		</div>
+		<div class="FName5">
+			<br>
+			<label><strong>Why do you want to join Codetrain</strong><span style="color: red">*</span></label>
+			<br>
+			<br>
+			<input class="fname-input" type="text" placeholder="Your answer">
+			<hr class="hr2">
+		</div>	
+		<div class="FName6">
+			<br>
+			<label><strong>How did you hear about Codetrain?</strong><span style="color: red">*</span></label>
+			<br>
+			<br>
+			<input class="fname-input" type="text" placeholder="Your answer">
+			<hr class="hr2">
+		</div>
+		<div class="FName7">
+		    <p>A copy of your respones will be emailed to the address that you provided</p>
+		    <input type="range" id="vol" name="vol" max="200">
+		    <label for="vol">Page 1 of 1</label>
+		    <br>
+		</div>
+		<br>
+	   <input type="button" style="background-color: blue" style="border-radius: 4px" value="submit" onclick="msg()">
+	   <p>Clear Form</p>
+	   <p>Never Submit passwords through Google Forms.</p>
+	</form>
+</div>
+</body>
+</html>

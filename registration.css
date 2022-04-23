@@ -1,0 +1,159 @@
+body {
+	background-color: lightblue;
+	align-content: center;
+}
+
+.container {
+	position: relative;
+    left: 651px;
+}
+
+.hr1 {
+	width: 100%;
+    position: relative;
+    right: 8px;
+}
+
+.form {
+	float: center;
+}
+.Header1 {
+	background-color: white;
+	padding-left: 20px;
+	height: 33vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.Email2 {
+	background-color: white;
+    padding-left: 20px;
+	height: 15vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.Email2 [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 3px lightgrey;
+}
+.FName {
+	background-color: white;
+    padding-left: 20px;
+	height: 15vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.FName [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 3px lightgrey;
+}
+.FName2 {
+	background-color: white;
+    padding-left: 20px;
+	height: 15vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.FName2 [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 0px lightgrey;
+}
+.Nok {
+	background-color: white;
+    padding-left: 20px;
+	height: 29vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.Nok [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 0px;
+}
+.Fees {
+	background-color: white;
+    padding-left: 20px;
+	height: 20vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.Payfees {
+	background-color: white;
+    padding-left: 20px;
+	height: 27vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.FName3 {
+	background-color: white;
+    padding-left: 20px;
+	height: 15vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.FName3 [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 0px lightgrey;
+}
+.FName4 {
+	background-color: white;
+    padding-left: 20px;
+	height: 15vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.FName4 [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 0px lightgrey;
+}
+.FName5 {
+	background-color: white;
+    padding-left: 20px;
+	height: 15vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.FName5 [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 0px lightgrey;
+}
+.FName6 {
+	background-color: white;
+    padding-left: 20px;
+	height: 15vh;
+	width: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px
+}
+.FName6 [type=text] {
+	width: 75%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 0px lightgrey;
+}
+.button1 {
+	background-color: blue;
+	border-radius: 4px;
+}
